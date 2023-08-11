@@ -1,0 +1,250 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Android","appium:appPackage":"com.android.settings","appium:appActivity":".Settings"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Android","appium:appPackage":"com.android.settings","appium:appActivity":".Settings"}}[39m
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Android","appium:appPackage":"com.android.settings","appium:appActivity":".Settings"},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"Android","appium:appPackage":"com.android.settings","appium:appActivity":".Settings"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Event 'newSessionRequested' logged at 1691768735637 (22:45:35 GMT+0700 (Indochina Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@e9fd][0m Appium v2.0.1 creating new AndroidUiautomator2Driver (v2.29.2) session
+[38;5;16m[AppiumDriver@e9fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@e9fd][0m Appium's BaseDriver version is 9.3.16
+[38;5;16m[AppiumDriver@e9fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.3.16
+[38;5;16m[AppiumDriver@e9fd][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m   "alwaysMatch": {
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m     "platformName": "Android",
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m     "appium:automationName": "UiAutomator2",
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m     "appium:deviceName": "Android",
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m     "appium:appPackage": "com.android.settings",
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m     "appium:appActivity": ".Settings"
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m   },
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m   "firstMatch": [
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m     {}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m   ]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231][0m }
+[38;5;32m[AndroidUiautomator2Driver@4231][0m The following capabilities were provided, but are not recognized by Appium:
+[38;5;32m[AndroidUiautomator2Driver@4231][0m   deviceName
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Session created with session id: c7dc6fbc-62fa-477e-adc9-f324a792107e
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Starting 'com.android.settings' directly on the device
+[38;5;48m[ADB][0m Found 2 'build-tools' folders under '/Users/nuttapon/Library/Android/sdk' (newest first):
+[38;5;48m[ADB][0m     /Users/nuttapon/Library/Android/sdk/build-tools/34.0.0
+[38;5;48m[ADB][0m     /Users/nuttapon/Library/Android/sdk/build-tools/30.0.3
+[38;5;48m[ADB][0m Using 'adb' from '/Users/nuttapon/Library/Android/sdk/platform-tools/adb'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;64m[AndroidDriver][0m Retrieving device list
+[debug] [38;5;48m[ADB][0m Trying to find a connected android device
+[debug] [38;5;48m[ADB][0m Getting connected devices
+[debug] [38;5;48m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[38;5;64m[AndroidDriver][0m Using device: emulator-5554
+[38;5;48m[ADB][0m Using 'adb' from '/Users/nuttapon/Library/Android/sdk/platform-tools/adb'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[debug] [38;5;48m[ADB][0m Setting device id to emulator-5554
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [38;5;48m[ADB][0m Current device property 'ro.build.version.sdk': 34
+[38;5;48m[ADB][0m Getting device platform version
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [38;5;48m[ADB][0m Current device property 'ro.build.version.release': 14
+[debug] [38;5;48m[ADB][0m Device API level: 34
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Relaxing hidden api policy
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;64m[AndroidDriver][0m No app sent in, not parsing package/activity
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [38;5;64m[AndroidDriver][0m Pushing settings apk to device...
+[debug] [38;5;48m[ADB][0m Getting package info for 'io.appium.settings'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [38;5;48m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.0.5' >= '5.0.5')
+[debug] [38;5;48m[ADB][0m There is no need to install/upgrade '/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [38;5;48m[ADB][0m Getting IDs of all 'io.appium.settings' processes
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [38;5;64m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [38;5;80m[Logcat][0m Starting logs capture with command: /Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Forwarding UiAutomator2 Server port 6790 to local port 8201
+[debug] [38;5;48m[ADB][0m Forwarding system: 8201 to device: 6790
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8201 tcp:6790'
+[debug] [38;5;48m[ADB][0m Checking app cert for /Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.2.apk
+[debug] [38;5;48m[ADB][0m Checking app cert for /Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[38;5;48m[ADB][0m Using 'apksigner.jar' from '/Users/nuttapon/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar'
+[debug] [38;5;48m[ADB][0m Starting apksigner: /Library/Java/JavaVirtualMachines/temurin-20.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/nuttapon/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [38;5;48m[ADB][0m Starting apksigner: /Library/Java/JavaVirtualMachines/temurin-20.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/nuttapon/Library/Android/sdk/build-tools/34.0.0/lib/apksigner.jar verify --print-certs /Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.2.apk
+[debug] [38;5;48m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [38;5;48m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [38;5;48m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [38;5;48m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [38;5;48m[ADB][0m 
+[debug] [38;5;48m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[ADB][0m '/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[debug] [38;5;48m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+[debug] [38;5;48m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[debug] [38;5;48m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [38;5;48m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [38;5;48m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [38;5;48m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [38;5;48m[ADB][0m 
+[debug] [38;5;48m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.2.apk'
+[38;5;48m[ADB][0m '/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.2.apk' is signed with the default certificate
+[debug] [38;5;48m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [38;5;48m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.12.2' >= '5.12.2')
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.2.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Server packages are not going to be (re)installed
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Waiting up to 30000ms for services to be available
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;48m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] [38;5;48m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m No app capability. Assuming it is already on the device
+[debug] [38;5;48m[ADB][0m Getting install status for com.android.settings
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm path com.android.settings'
+[debug] [38;5;48m[ADB][0m 'com.android.settings' is installed
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.android.settings'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.android.settings'
+[debug] [38;5;64m[AndroidDriver][0m Performed fast reset on the installed 'com.android.settings' application (stop and clear)
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Performing shallow cleanup of automation leftovers
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m No obsolete sessions have been detected (socket hang up)
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Starting UIAutomator2 server 5.12.2
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Using UIAutomator2 server from '/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.12.2.apk' and test from '/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [38;5;48m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m socket hang up
+[debug] [38;5;96m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m socket hang up
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m socket hang up
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /status] to [GET http://127.0.0.1:8201/status] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m The initialization of the instrumentation process took 3068ms
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/session' to command name 'createSession'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [POST /session] to [POST http://127.0.0.1:8201/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"Android","appPackage":"com.android.settings","appActivity":".Settings"},"platformName":"Android","automationName":"UiAutomator2","deviceName":"emulator-5554","appPackage":"com.android.settings","appActivity":".Settings","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"Android","appPackage":"com.android.settings","appActivity":".Settings"},"platformName":"Android","automationName":"UiAutomator2","deviceName":"emulator-5554","appPackage":"com.android.settings","appActivity":".Settings","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314"}}
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Determined the downstream protocol as 'W3C'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/appium/device/info] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"androidId":"04b7f244a0d66d27","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabili...
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+[38;5;64m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/appium/device/pixel_ratio] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":2.75}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/appium/device/system_bars] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"statusBar":66}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/window/current/size] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"height":2154,"width":1080}}
+[38;5;16m[AppiumDriver@e9fd][0m New AndroidUiautomator2Driver session created successfully, session c7dc6fbc-62fa-477e-adc9-f324a792107e added to master session list
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Event 'newSessionStarted' logged at 1691768741644 (22:45:41 GMT+0700 (Indochina Time))
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Cached the protocol value 'W3C' for the new session c7dc6fbc-62fa-477e-adc9-f324a792107e
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"Android","appPackage":"com.android.settings","appActivity":".Settings"},"platformName":"Android","automationName":"UiAutomator2","deviceName":"emulator-5554","appPackage":"com.android.settings","appActivity":".Settings","deviceUDID":"emulator-5554","deviceApiLevel":34,"platformVersion":"14","deviceScreenSize":"1080x2220","deviceScreenDensity":440,"deviceModel":"sdk_gphone64_arm64","deviceManufacturer":"Google","pixelRatio":2.75,"statBarHeight":66,"viewportRect":{"left":0,"top":66,"width":1080,"height":2088}}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m6010 ms - 868[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@text=\"Battery\"]"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text=\"Battery\"]","c7dc6fbc-62fa-477e-adc9-f324a792107e"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Waiting up to 0 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/element] with body: {"strategy":"xpath","selector":"//*[@text=\"Battery\"]","context":"","multiple":false}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"ELEMENT":"00000000-0000-0236-ffff-ffff00000051","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0236-ffff-ffff00000051"}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0236-ffff-ffff00000051","ELEMENT":"00000000-0000-0236-ffff-ffff00000051"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element [39m[32m200[39m [90m1212 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element/00000000-0000-0236-ffff-ffff00000051/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Calling AppiumDriver.click() with args: ["00000000-0000-0236-ffff-ffff00000051","c7dc6fbc-62fa-477e-adc9-f324a792107e"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/element/00000000-0000-0236-ffff-ffff00000051/click' to command name 'click'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [POST /element/00000000-0000-0236-ffff-ffff00000051/click] to [POST http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/element/00000000-0000-0236-ffff-ffff00000051/click] with body: {"element":"00000000-0000-0236-ffff-ffff00000051"}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":null}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Responding to client with driver.click() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element/00000000-0000-0236-ffff-ffff00000051/click [39m[32m200[39m [90m55 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id=\"com.android.settings:id/usage_summary\"]"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id=\"com.android.settings:id/usage_summary\"]","c7dc6fbc-62fa-477e-adc9-f324a792107e"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Waiting up to 0 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/element] with body: {"strategy":"xpath","selector":"//*[@resource-id=\"com.android.settings:id/usage_summary\"]","context":"","multiple":false}
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 404: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:156)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:277)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:271)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.Abstr...
+[debug] [38;5;112m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m     at AndroidUiautomator2Driver.findElOrEls (/Users/nuttapon/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m     at async AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/nuttapon/Documents/appium-test/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m     at async AndroidUiautomator2Driver.findElement (/Users/nuttapon/Documents/appium-test/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+[38;5;0m[HTTP][0m [37m<-- POST /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element [39m[33m404[39m [90m420 ms - 831[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id=\"com.android.settings:id/usage_summary\"]"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Calling AppiumDriver.findElements() with args: ["xpath","//*[@resource-id=\"com.android.settings:id/usage_summary\"]","c7dc6fbc-62fa-477e-adc9-f324a792107e"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Waiting up to 0 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/elements] with body: {"strategy":"xpath","selector":"//*[@resource-id=\"com.android.settings:id/usage_summary\"]","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":[{"ELEMENT":"00000000-0000-0237-ffff-ffff000000cd","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0237-ffff-ffff000000cd"}]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0237-ffff-ffff000000cd","ELEMENT":"00000000-0000-0237-ffff-ffff000000cd"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/elements [39m[32m200[39m [90m1116 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id=\"com.android.settings:id/usage_summary\"]"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@resource-id=\"com.android.settings:id/usage_summary\"]","c7dc6fbc-62fa-477e-adc9-f324a792107e"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Waiting up to 0 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [POST /element] to [POST http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/element] with body: {"strategy":"xpath","selector":"//*[@resource-id=\"com.android.settings:id/usage_summary\"]","context":"","multiple":false}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":{"ELEMENT":"00000000-0000-0237-ffff-ffff000000cd","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0237-ffff-ffff000000cd"}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0237-ffff-ffff000000cd","ELEMENT":"00000000-0000-0237-ffff-ffff000000cd"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element [39m[32m200[39m [90m76 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element/00000000-0000-0237-ffff-ffff000000cd/text[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element/00000000-0000-0237-ffff-ffff000000cd/text' to command name 'getText'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [GET /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element/00000000-0000-0237-ffff-ffff000000cd/text] to [GET http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314/element/00000000-0000-0237-ffff-ffff000000cd/text] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":"100 %"}
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Replacing sessionId c65b76e3-fef1-4b2c-abab-4d0ad9b3a314 with c7dc6fbc-62fa-477e-adc9-f324a792107e
+[38;5;0m[HTTP][0m [37m<-- GET /session/c7dc6fbc-62fa-477e-adc9-f324a792107e/element/00000000-0000-0237-ffff-ffff000000cd/text [39m[32m200[39m [90m27 ms - 68[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/c7dc6fbc-62fa-477e-adc9-f324a792107e[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Calling AppiumDriver.deleteSession() with args: ["c7dc6fbc-62fa-477e-adc9-f324a792107e"]
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Event 'quitSessionRequested' logged at 1691768744666 (22:45:44 GMT+0700 (Indochina Time))
+[38;5;16m[AppiumDriver@e9fd][0m Removing session c7dc6fbc-62fa-477e-adc9-f324a792107e from our master session list
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Deleting UiAutomator2 session
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Deleting UiAutomator2 server session
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Matched '/' to command name 'deleteSession'
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8201/session/c65b76e3-fef1-4b2c-abab-4d0ad9b3a314] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Got response with status 200: {"sessionId":"c65b76e3-fef1-4b2c-abab-4d0ad9b3a314","value":null}
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.android.settings'
+[debug] [38;5;80m[Logcat][0m Stopping logcat capture
+[debug] [38;5;48m[ADB][0m Removing forwarded port socket connection: 8201 
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8201'
+[38;5;32m[AndroidUiautomator2Driver@4231 (c7dc6fbc)][0m Restoring hidden api policy to the device default configuration
+[debug] [38;5;48m[ADB][0m Running '/Users/nuttapon/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Event 'quitSessionFinished' logged at 1691768745100 (22:45:45 GMT+0700 (Indochina Time))
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Received response: null
+[debug] [38;5;16m[AppiumDriver@e9fd][0m But deleting session, so not returning
+[debug] [38;5;16m[AppiumDriver@e9fd][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/c7dc6fbc-62fa-477e-adc9-f324a792107e [39m[32m200[39m [90m437 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[debug] [38;5;96m[Instrumentation][0m .
+[debug] [38;5;96m[Instrumentation][0m Time: 7.063
+[debug] [38;5;96m[Instrumentation][0m 
+[debug] [38;5;96m[Instrumentation][0m OK (1 test)
+[debug] [38;5;96m[Instrumentation][0m The process has exited with code 0
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [38;5;16m[AppiumDriver@e9fd][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
